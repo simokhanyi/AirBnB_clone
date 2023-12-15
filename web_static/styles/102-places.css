@@ -1,0 +1,33 @@
+/* styles/100-places.css */
+
+/* Existing styles... */
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .places {
+    justify-content: center;
+  }
+
+  .places article {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .places .price_by_night {
+    margin-top: -40px;
+  }
+
+  .places .information div {
+    width: 100%;
+    text-align: left;
+  }
+
+  .places .amenities_list li {
+    margin: 5px 10px;
+    padding: 5px;
+  }
+}
